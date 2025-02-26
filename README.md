@@ -21,8 +21,6 @@ Check it out [HERE](https://finlog-vf.vercel.app/)
 
 ## 📲 Installation
 
-### Clone the Repository
-
 1. clone the repository to your local machine:
 
 ```bash
