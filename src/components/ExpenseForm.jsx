@@ -30,14 +30,14 @@ const ExpenseForm = () => {
   }
 
   return (
-    <div className='flex flex-col w-4/12 max-sm:flex max-sm:w-full max-md:text-xs max-lg:w-5/12'>
+    <div className='flex flex-col w-5/12 max-sm:flex max-sm:w-full max-md:text-xs max-lg:w-5/12'>
       <form onSubmit={(e) => handleSubmit(e)}>
         <div className='item-input'>
           <label htmlFor="title">title</label>
           <input type="text" name='title' id='title' value={formData.title} placeholder='Enter Item' className='w-full' onChange={(e) => updateFormData(e)} />
         </div>
-        <div className='price-dropdown-container flex gap-3 mt-4 max-sm:mt-2 max-lg:flex-col'>
-          <div className='price-input grow   max-lg:w-full'>
+        <div className='price-dropdown-container flex gap-[10px] mt-4 max-sm:mt-2 max-lg:flex-col'>
+          <div className='price-input grow max-lg:w-full'>
             <label htmlFor="amount">amount</label>
             <input type="number" name='amount' id='amount' value={formData.amount} placeholder='Enter Amount' className='w-full' onChange={(e) => updateFormData(e)} />
           </div>

@@ -32,11 +32,11 @@ input {
 } */
 
 .inc-exp-bal>p {
-    @apply text-sm text-gray-500 max-sm:text-xs lg:text-base;
+    @apply text-sm text-gray-500 max-sm:text-xs 2xl:text-base;
 }
 
 .inc-exp-bal>h1 {
-    @apply text-3xl font-semibold max-sm:text-xl lg:text-4xl;
+    @apply text-3xl font-semibold max-sm:text-xl 2xl:text-4xl;
 }
 
 label {
