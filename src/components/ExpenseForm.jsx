@@ -37,9 +37,9 @@ const ExpenseForm = () => {
           <input type="text" name='title' id='title' value={formData.title} placeholder='Enter Item' className='w-full' onChange={(e) => updateFormData(e)} />
         </div>
         <div className='price-dropdown-container flex gap-3 mt-4 max-sm:mt-2 max-lg:flex-col'>
-          <div className='price-input w-4/6 max-lg:w-full'>
+          <div className='price-input grow   max-lg:w-full'>
             <label htmlFor="amount">amount</label>
-            <input type="number" name='amount' id='amount' value={formData.amount} placeholder='Enter Amount' onChange={(e) => updateFormData(e)} />
+            <input type="number" name='amount' id='amount' value={formData.amount} placeholder='Enter Amount' className='w-full' onChange={(e) => updateFormData(e)} />
           </div>
           <select name="category" id="category" value={formData.category} className='px-1 h-7 bg-gray-200 border-gray-400 self-end rounded-md text-sm text-gray-700 shadow outline-none max-lg:h-6 max-lg:w-full max-lg:mt-2' onChange={(e) => updateFormData(e)}>
             <option value="" hidden>Category</option>
